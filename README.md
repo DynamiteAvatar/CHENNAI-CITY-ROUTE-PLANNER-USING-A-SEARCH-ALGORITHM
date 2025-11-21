@@ -1,4 +1,4 @@
-Abstract
+**Abstract**:
 
 ◉ High-performance, interactive application for optimal pathfinding within Chennai city.
 
@@ -8,13 +8,15 @@ Abstract
 
 ◉ Serves as both a functional demonstration and a benchmark tool for heuristic search methods in transportation network analysis.
 
-Project Overview & Objective
+
+**Project Overview & Objective**:
 
 ◉ Provides an efficient solution for computing the shortest route between two geographic points in a simulated Chennai road network.
 
 ◉ Implements an intelligent search strategy that reduces computation time while ensuring globally optimal results.
 
 ◉ Offers an interactive UI for exploring pathfinding results and evaluating algorithm performance.
+
 
 **Core Methodology:**
 
@@ -37,6 +39,7 @@ Project Overview & Objective
 ◉ The heuristic improves search performance by directing exploration toward the goal.
 
 ◉ Ensures faster computation while maintaining optimality.
+
 
 **System Capabilities**:
 
