@@ -1,42 +1,44 @@
 Abstract
 
-High-performance, interactive application for optimal pathfinding within Chennai city.
+◉ High-performance, interactive application for optimal pathfinding within Chennai city.
 
-Built using Python, Streamlit for rapid UI deployment, and Folium for real-time map visualization.
+◉ Built using Python, Streamlit for rapid UI deployment, and Folium for real-time map visualization.
 
-Utilizes the A* (A-Star) search algorithm for efficient and optimal route computation.
+◉ Utilizes the A* (A-Star) search algorithm for efficient and optimal route computation.
 
-Serves as both a functional demonstration and a benchmark tool for heuristic search methods in transportation network analysis.
+◉ Serves as both a functional demonstration and a benchmark tool for heuristic search methods in transportation network analysis.
 
 Project Overview & Objective
 
-Provides an efficient solution for computing the shortest route between two geographic points in a simulated Chennai road network.
+◉ Provides an efficient solution for computing the shortest route between two geographic points in a simulated Chennai road network.
 
-Implements an intelligent search strategy that reduces computation time while ensuring globally optimal results.
+◉ Implements an intelligent search strategy that reduces computation time while ensuring globally optimal results.
 
-Offers an interactive UI for exploring pathfinding results and evaluating algorithm performance.
+◉ Offers an interactive UI for exploring pathfinding results and evaluating algorithm performance.
 
-Core Methodology
-1. A* Algorithm
-1.1 Graph Representation
+**Core Methodology:**
 
-Chennai is modeled as a weighted graph.
+**1. A* Algorithm:**
+   
+**1.1 Graph Representation**
 
-Nodes (vertices) represent key city locations (e.g., Chennai Central, Airport) with fixed latitude–longitude coordinates.
+◉ Chennai is modeled as a weighted graph.
 
-Edges represent valid road segments between nodes.
+◉ Nodes (vertices) represent key city locations (e.g., Chennai Central, Airport) with fixed latitude–longitude coordinates.
 
-Weights represent real-world distances, computed using the Haversine formula.
+◉ Edges represent valid road segments between nodes.
 
-1.2 Heuristic Function
+◉ Weights represent real-world distances, computed using the Haversine formula.
 
-A* uses a heuristic function h(n) to estimate the cost from the current node to the destination.
+**1.2 Heuristic Function**
 
-The heuristic improves search performance by directing exploration toward the goal.
+◉ A* uses a heuristic function h(n) to estimate the cost from the current node to the destination.
 
-Ensures faster computation while maintaining optimality.
+◉ The heuristic improves search performance by directing exploration toward the goal.
 
-System Capabilities
+◉ Ensures faster computation while maintaining optimality.
+
+**System Capabilities**:
 
 ✔ Guaranteed Optimal Pathfinding:
 Determines the shortest route using A*, ensuring globally optimal distance computation.
